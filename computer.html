@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>computer</title>
+    <link rel="stylesheet" href="/computer.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="addtoCart.js"></script>
+
+</head>
+<body>
+    <header><nav class="navbar"> <!-- LOGO --> <div class="logo">SPY.COM</div> <!-- NAVIGATION MENU --> <ul class="nav-links"> <!-- USING CHECKBOX HACK --> <input type="checkbox" id="checkbox_toggle" /> <label for="checkbox_toggle" class="hamburger">&#9776;</label> <!-- NAVIGATION MENUS --> <div class="menu"> <li><a href="/">Home</a></li> <li><a href="/">About</a></li> <li class="services"> <a href="/">Services</a> <!-- DROPDOWN MENU --> <ul class="dropdown"> <li><a href="/">Dropdown 1 </a></li> <li><a href="/">Dropdown 2</a></li> <li><a href="/">Dropdown 2</a></li> <li><a href="/">Dropdown 3</a></li> <li><a href="/">Dropdown 4</a></li> </ul> </li> <li><a href="/">Pricing</a></li> <li><a href="/">Contact</a></li> </div> </ul> </nav></header><main>
+        <div class="white">
+            <h1>Shop your favourite items</h1>
+
+        </div>
+ 
+    
+    <div class="container">
+        <div class="card" id="item1">
+            <img src="/img1.jpg">
+            <div class="title">Binaculors</div>
+            <div>
+                <label>Quantity :</label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item1)">Add To Cart</button>
+        </div>
+        <div class="card" id="item2">
+            <img src="/img2.jpg">
+            <div class="title">Ghillie suit</div>
+            <div>
+                <label>Quantity :</label>
+                <select>
+                    <option>1</option> 
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item2)">Add To Cart</button>
+        </div>
+        <div class="card" id="item3">
+            <img src="/img3.jpg">
+            <div class="title">Magnify Glass</div>
+            <div>
+                <label>Quantity :</label>
+                <select>
+                    <option>1</option> 
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item3)">Add To Cart</button>
+        </div>
+        
+    </div>
+    <div class="container2">
+        <div class="card" id="item4">
+            <img src="/img4.jpg">
+            <div class="title">Flashlight</div>
+            <div>
+                <label>Quantity :</label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item4)">Add To Cart</button>
+        </div>
+        <div class="card" id="item5">
+            <img src="/img5.jpg">
+            <div class="title">Disguise</div>
+            <div>
+                <label>Quantity :</label>
+                <select>
+                    <option>1</option> 
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item5)">Add To Cart</button>
+        </div>
+        <div class="card" id="item6">
+            <img src="/img6.jpg">
+            <div class="title">Lock Picker</div>
+            <div>
+                <label>Quantity :</label>
+                <select>
+                    <option>1</option> 
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <button onclick="addToCart(item6)">Add To Cart</button>
+        </div>
+        
+    </div>
+    <div class="button">
+        <a href="/exit.html"><button>Confirm Order!</button></a>
+    </div>
+    <div class="cart" id="cart">
+        <div class="title">CART</div><hr/>
+        <div id="title"></div>
+    </div>
+    <div>
+        <img  id="divexample" style="visibility: hidden;"src="/imageedit_2_6933230349.png"/>
+    </div>
+    <div>
+        <img  id="divexample1" style="visibility: hidden;"src="/whytwo.jpg">
+    </div>
+    <div>
+        <img  id="divexample2" style="visibility: hidden;"src="/partner.jpg">
+    </div>
+</main>
+        
+    
+</body>
+</html>
